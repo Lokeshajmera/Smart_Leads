@@ -1,6 +1,15 @@
-# Smart Leads Dashboard
+# GigFlow - Smart Leads Dashboard
 
-A full-stack Lead Management Dashboard built using the MERN stack with clean architecture, scalable code practices, and a professional user experience.
+A professional full-stack Lead Management Dashboard built for the ServiceHive internship assignment. This project implements a clean architecture with the MERN stack and TypeScript to manage hiring/gig leads efficiently.
+
+## 🚀 Hiring Workflow (Loom Demo Steps)
+When recording your 2-minute Loom video, here is the recommended "Hiring Workflow" to demonstrate:
+1.  **Registration & RBAC**: Register a new **Admin** account.
+2.  **Lead Creation**: Create a new lead (e.g., "Rahul", Source: "Instagram", Status: "New").
+3.  **Discovery & Search**: Use the **Debounced Search** to find "Rahul" and apply a **Source Filter**.
+4.  **Qualification**: Open the lead details, click Edit, and change the status to **Qualified**.
+5.  **Data Portability**: Click **Export CSV** to download the filtered list.
+6.  **Dark Mode**: Seamlessly toggle the theme to show the premium UI in both modes.
 
 ## Features
 
@@ -81,3 +90,9 @@ JWT_SECRET=your_jwt_secret_here
 ```
 VITE_API_URL=http://localhost:5000/api
 ```
+
+## 📧 Submission Details
+- **To:** ritik.yadav@servicehive.tech
+- **CC:** hr.recruitment@servicehive.tech
+- **Subject:** MERN Internship Assignment Submission - [Your Name]
+
