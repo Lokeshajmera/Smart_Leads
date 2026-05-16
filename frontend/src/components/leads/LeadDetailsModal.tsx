@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Lead } from '../../types';
 import { X, Calendar, Mail, Tag, Share2, User, Clock } from 'lucide-react';
 import clsx from 'clsx';

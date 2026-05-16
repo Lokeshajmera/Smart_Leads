@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import type { Lead } from '../../types';
 import api from '../../services/api';
 import { X } from 'lucide-react';
@@ -34,7 +34,7 @@ const LeadFormModal = ({ isOpen, onClose, lead, onSuccess }: LeadFormModalProps)
 
   if (!isOpen) return null;
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     setError('');
     setLoading(true);
